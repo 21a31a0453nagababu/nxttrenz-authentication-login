@@ -1,0 +1,67 @@
+/* Write your CSS code here */
+.Home-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .Home-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.description-page {
+  width: 60%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: center;
+}
+.paragraph {
+  color: #d7dfe9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+  margin-left: 10px;
+}
+.shop-button {
+  background-color: #0967d2;
+  color: #ffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 5px;
+  height: 40px;
+  width: 50%;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+.img {
+  width: 50%;
+  border-radius: 5px;
+  margin: 10px;
+  justify-content: flex-end;
+}
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+@media screen(max-width:767px) {
+  .img {
+    display: none;
+  }
+}
+@media screen (min-width: 768px) {
+  .mobile-img {
+    display: none;
+  }
+}

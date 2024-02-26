@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.header-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #fffff;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 10px;
+  height: 40px;
+  width: 90px;
+}
+.para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+  margin-top: 20px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logout-button {
+  background-color: #0967d2;
+  color: #ffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 5px;
+  height: 40px;
+  width: 70px;
+  margin-left: 20px;
+  border-radius: 8px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
